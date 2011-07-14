@@ -1,6 +1,6 @@
 Rails.application.routes.draw do |map|
 
-  mount_at = Cheese::Engine.config.mount_at
+  mount_at = Feedback::Engine.config.mount_at
 
   match mount_at => 'cheese/widgets#index'
 
