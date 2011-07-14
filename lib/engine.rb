@@ -1,9 +1,9 @@
-require 'cheese'
+require 'feedback'
 require 'rails'
 require 'action_controller'
 require 'application_helper'
 
-module Cheese
+module Feedback
   class Engine < Rails::Engine
 
     # Config defaults

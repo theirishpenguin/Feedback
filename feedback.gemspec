@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "app/controllers/feedback/feedback_controller.rb.erb",
+    "app/controllers/feedback/feedback_controller.rb",
     "app/controllers/feedback/widgets_controller.rb",
     "app/helpers/application_helper.rb",
     "app/helpers/feedback/widgets_helper.rb",
