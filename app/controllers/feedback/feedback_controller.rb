@@ -2,13 +2,13 @@ class Feedback::FeedbackController < ApplicationController
   layout false
 
   def new
-    @feedback = Feedback.new
+    @feedback = Feedback::Feedback.new
   end
 
   def create
-    @feedback = Feedback.new(params[:feedback])
+    @feedback = Feedback::Feedback.new(params[:feedback])
     if @feedback.valid?
-      FeedbackMailer.feedback(@feedback).deliver
+      #FeedbackMailer.feedback(@feedback).deliver
       render :status => :created, :text => '<h3>Thank you for your feedback!</h3>'
     else
       @error_message = "Please enter your #{@feedback.subject.to_s.downcase}"
