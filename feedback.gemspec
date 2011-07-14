@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{cheese}
+  s.name = %q{feedback}
   s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -15,25 +15,25 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "app/controllers/cheese/widgets_controller.rb",
+    "app/controllers/feedback/widgets_controller.rb",
      "app/helpers/application_helper.rb",
-     "app/helpers/cheese/widgets_helper.rb",
-     "app/models/cheese/widget.rb",
-     "app/views/cheese/widgets/index.html.erb",
-     "app/views/cheese/widgets/show.html.erb",
-     "app/views/layouts/cheese.html.erb",
+     "app/helpers/feedback/widgets_helper.rb",
+     "app/models/feedback/widget.rb",
+     "app/views/feedback/widgets/index.html.erb",
+     "app/views/feedback/widgets/show.html.erb",
+     "app/views/layouts/feedback.html.erb",
      "config/routes.rb",
      "lib/acts_as_widget/base.rb",
      "lib/application_helper.rb",
-     "lib/cheese.rb",
+     "lib/feedback.rb",
      "lib/engine.rb",
-     "lib/rails/generators/cheese/cheese_generator.rb",
-     "lib/rails/generators/cheese/templates/initializer.rb",
-     "lib/rails/generators/cheese/templates/migration.rb",
-     "lib/rails/generators/cheese/templates/schema.rb",
+     "lib/rails/generators/feedback/feedback_generator.rb",
+     "lib/rails/generators/feedback/templates/initializer.rb",
+     "lib/rails/generators/feedback/templates/migration.rb",
+     "lib/rails/generators/feedback/templates/schema.rb",
      "lib/rails/railties/tasks.rake",
-     "public/images/cheese.jpg",
-     "public/stylesheets/cheese.css"
+     "public/images/feedback.jpg",
+     "public/stylesheets/feedback.css"
   ]
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]

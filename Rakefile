@@ -9,7 +9,7 @@ end
 begin
   require "jeweler"
   Jeweler::Tasks.new do |gem|
-    gem.name = "cheese"
+    gem.name = "feedback"
     gem.summary = "Description of your gem"
     gem.email = "you@email.com"
     gem.authors = ["Your Name"]
