@@ -1,4 +1,4 @@
-class Feedback
+class Feedback::Feedback
   attr_accessor :subject, :email, :comment, :page
 
   def initialize(params = {})

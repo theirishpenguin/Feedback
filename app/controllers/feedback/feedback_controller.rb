@@ -1,4 +1,4 @@
-class FeedbackController < ApplicationController
+class Feedback::FeedbackController < ApplicationController
   layout false
 
   def new
